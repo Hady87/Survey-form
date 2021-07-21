@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+     
+      <link href="css/styles.css" rel="stylesheet">
+     
+      <title>  Survey Form</title>
+   </head>
+   <body>
+    
+    <div id="title">
+        <h1> Freedhom and Citizenship Association Survey Form</h1>
+          <p>Thank you for taking the time to help us improve our work</p>
+        </div>
+         
+          <form id="survey-form">
+            <div>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+          <label for="email" >Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+            <label for="fage"  >Age
+        (optional):</label><br>
+          <input type="number" id="number" name="number" placeholder="Age" min="18" max="45">
+            <br>
+           
+             </div>
+            <div>
+              <br>
+              <label for="selectBox">How Did You Hear About Us?<br></label>
+        
+        <select name="selectBox" id="selectBox" onchange="OtherOption()">
+          <option value="volue2">Search Engine</option>
+          <option value="volue3">Your Paid Advertising Source #1</option>
+          <option value="volue4">Your Paid Advertising Source #3</option>
+          <option value="volue5">Social Media Platform You Engage In</option>
+          <option value="volue6">Social Media Platform You Engage In</option>
+          <option value="volue7">A post from a friend on social media</option>
+          <option value="volue8">Radio</option>
+          <option value="volue9">TV</option>
+          <option value="volue10">Other</option>
+          <br>
+          <input  type="text" id="other" name="other" value="" style="display: none;" return false>
+        </select>
+              </div>
+            <div>
+               <br>
+              <label for="volunteer">How many hours do you want to volunteer with our association?<br></label> 
+          <input type="radio" id="volunteer" name="volunteer" value="">
+        <label for="volunt1"> 1 hour</label><br>
+        <input type="radio" id="volunt1" name="volunteer" value="">
+        <label for="volunt2"> 2-3 hours</label><br>
+        <input type="radio" id="volunt2" name="volunteer" value="">
+        <label for="volunt3"> 3-5 hours</label><br>
+              <input type="radio" id="volunt3" name="volunteer" value="">
+        <label for="volunt4"> More than 5 hours</label><br>
+              <br>
+          </div>
+            <div>
+              <label for="actitvities">Which actitvities are you intersted in <br></label> 
+          <input type="checkbox" id="actitvity1" name="actitivity1" value="">
+        <label for="activity1"> Youth Empowerment Program</label><br>
+        <input type="checkbox" id="actitivity2" name="actitivity2" value="">
+        <label for="actitivity2"> Entrepreneurship Program</label><br>
+        <input type="checkbox" id="actitivity3" name="actitivity3" value="">
+        <label for="actitivity3"> Women's Empowerment</label><br>
+              <input type="checkbox" id="actitivity4" name="actitivity4" value="">
+        <label for="actitivity3"> Promoting Human Rights</label><br><br>
+            </div>  
+            <label for="comment">Any comments or suggestions?</label>
+        
+        <textarea id="comment" onfocus="emptyArea()" name="comment"> 
+        
+        </textarea>
+            <br>
+             <input id="submit" type="submit" value="Submit">
+            
+        </form>
+     
+        
+
+
+    
+  </div>
+</div>
+<script src="js/scripts.js"></script>
+   </body>
+</html>

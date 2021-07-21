@@ -1,0 +1,57 @@
+
+    body{
+      opacity:1;
+      background-color:#87CEFA; 
+        
+      }
+    
+    
+    h1{
+      text-align:center;
+    }
+    p{
+      text-align:center;
+    }
+    
+    #survey-form{
+      background:#2F4F4F;
+      display:flex;
+      flex-direction:column;
+      width:50%;
+      justify-content:center;
+     padding:10%;
+      margin:auto;
+      opacity:1;
+            background-color:#708090;
+      }
+      div.background div.transbox >div.myForm{
+        
+      }
+    #name{
+     width:80%; 
+    }
+    #email{
+     width:80%; 
+    }
+    #number{
+     width:80%; 
+    }
+    #selectBox{
+     width:83%; 
+    }
+    #comment{
+      
+      width:80%;
+      height:120px;
+      
+      
+    }
+    #submit{
+     background:green; 
+      width:83%;
+      height:30px;
+      color:white;
+       
+        text-decoration: none; 
+        cursor: pointer;
+    }
